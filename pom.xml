@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://3.15.218.131:8081/repository/maven-snapshots/</url>
+            <url>http://3.145.66.7:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://3.15.218.131:8081/repository/maven-releases/</url>
+            <url>http://3.145.66.7:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 
@@ -60,10 +60,10 @@
           <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
-              
-              <configuration>
+
+              <!-- <configuration>
                 <source>3.1.2</source>
-              </configuration>
+              </configuration> -->
 
             </plugin>
 
